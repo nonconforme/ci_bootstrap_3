@@ -1,6 +1,6 @@
-
-	<?php
-		foreach ($scripts['foot'] as $file)
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+foreach ($scripts['foot'] as $file)
 		{
 			$url = starts_with($file, 'http') ? $file : base_url($file);
 			echo "<script src='$url'></script>".PHP_EOL;

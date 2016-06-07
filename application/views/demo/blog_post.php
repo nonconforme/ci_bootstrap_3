@@ -1,4 +1,6 @@
-<table class="table table-striped table-bordered">
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><table class="table table-striped table-bordered">
 	<tr>
 		<th>Title: </th>
 		<td><?php echo $post->title; ?></td>

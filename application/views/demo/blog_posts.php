@@ -1,4 +1,6 @@
-<?php foreach ($posts as $post): ?>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+foreach ($posts as $post): ?>
 	<table class="table table-striped table-bordered">
 		<tr>
 			<th>Title: </th>

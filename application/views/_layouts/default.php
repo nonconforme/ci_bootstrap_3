@@ -1,4 +1,6 @@
-<div class="container">
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><div class="container">
 	<?php $this->load->view('_partials/navbar'); ?>
 	<section class="content">
 		<?php $this->load->view('_partials/breadcrumb'); ?>

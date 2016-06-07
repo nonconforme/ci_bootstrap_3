@@ -1,4 +1,6 @@
-<ol class="breadcrumb">
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><ol class="breadcrumb">
 <?php
 	for ($i=0; $i<sizeof($breadcrumb); $i++)
 	{

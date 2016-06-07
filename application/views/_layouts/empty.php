@@ -1,1 +1,3 @@
-<?php $this->load->view($inner_view); ?>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+$this->load->view($inner_view); ?>

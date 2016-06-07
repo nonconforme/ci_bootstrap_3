@@ -1,4 +1,6 @@
-<div id="carousel-home" class="carousel slide" data-ride="carousel" style="width:1000px">
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><div id="carousel-home" class="carousel slide" data-ride="carousel" style="width:1000px">
 
 	<!-- Indicators -->
 	<ol class="carousel-indicators">

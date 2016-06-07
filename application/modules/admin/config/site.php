@@ -74,6 +74,14 @@ $config['site'] = array(
 				'User Groups'	=> 'user/group',
 			)
 		),
+		'config' => array(
+			'name'		=> 'Config',
+			'url'		=> 'config',
+			'icon'		=> 'ion ion-load-b',	// use Ionicons (instead of FontAwesome)
+			'children'  => array(
+				'Parameters'			=> 'config/parameters',
+			)
+		),
 		'demo' => array(
 			'name'		=> 'Demo',
 			'url'		=> 'demo',

@@ -1,4 +1,6 @@
-<?php // render fields & system message using Form Builder library ?>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+// render fields & system message using Form Builder library ?>
 <?php echo $form->open(); ?>
 
 	<?php echo $form->messages(); ?>

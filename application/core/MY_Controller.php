@@ -60,10 +60,13 @@ class MY_Controller extends MX_Controller {
 	private function _setup()
 	{
 		$site_config = $this->config->item('site');
-		
+
+		$this->mLoginUrl = $site_config['login_url'] = $this->Parameters_model->get_Param('LoginUrl');
+
 		// load default values
-		$this->mSiteName = $site_config['name'];
-		$this->mTitle = $site_config['title'];
+		$this->mSiteName = $this->Parameters_model->get_Param('SiteName');
+		$this->mTitle = $this->Parameters_model->get_Param('Title');
+		$this->mFavicon = $this->Parameters_model->get_Param('Favicon');
 		$this->mMenu = empty($site_config['menu']) ? array() : $site_config['menu'];
 		$this->mMetaData = empty($site_config['meta']) ? array() : $site_config['meta'];
 		$this->mScripts = $site_config['scripts'];

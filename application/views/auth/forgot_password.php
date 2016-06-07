@@ -1,4 +1,6 @@
-<?php echo $form->open(); ?>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+echo $form->open(); ?>
 
 	<?php echo $form->messages(); ?>
 	

@@ -1,4 +1,5 @@
-
-<h3>Welcome, <?php echo $user->first_name.' '.$user->last_name; ?>!</h3>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><h3>Welcome, <?php echo $user->first_name.' '.$user->last_name; ?>!</h3>
 
 <a href="auth/logout" class="btn btn-primary">Logout</a>

@@ -26,16 +26,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 switch (ENVIRONMENT)
 {
 	case 'development':
-		$config['base_url'] = '';
+		$config['base_url'] = 'http://cms.local/';
 		break;
 	case 'testing';
-		$config['base_url'] = '';
+		$config['base_url'] = 'http://cms.local/';
 		break;
 	case 'production';
-		$config['base_url'] = '';
+		$config['base_url'] = 'http://cms.local/';
 		break;
 	default:
-		$config['base_url'] = '';
+		$config['base_url'] = 'http://cms.local/';
 		break;
 }
 
